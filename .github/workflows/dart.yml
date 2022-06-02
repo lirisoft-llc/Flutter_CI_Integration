@@ -44,7 +44,11 @@ jobs:
       - name: Run tests
         run: flutter test
         
-      - name: Build android
-      - run: flutter clean
-      - run: flutter pub get
-      - run: flutter build appbundle
+      - name: Clean
+        run: flutter clean
+        
+      - name: Flutter fetch dependency
+        run: flutter pub get
+        
+      - name: Flutter build android
+        run: flutter build appbundle
