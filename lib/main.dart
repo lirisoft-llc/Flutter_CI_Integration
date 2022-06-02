@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         backgroundColor: Colors.grey,
         cardColor: Colors.red,
-        bottomAppBarColor: Colors.amber
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
